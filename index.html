@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rashid Software Zone - Free Windows Software Downloads</title>
+    <meta name="description" content="Download the best free Windows software at Rashid Software Zone. Browse 12+ categories including browsers, media players, security tools, productivity apps, and more. Safe, fast, and verified downloads.">
+    <meta name="keywords" content="Windows software, free downloads, Windows 11, Windows 10, productivity tools, media players, browsers, security software, utilities, Rashid Software Zone">
+    <meta name="author" content="Rashid Ahmad">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    <meta name="theme-color" content="#6366f1">
+    <meta name="msapplication-TileColor" content="#6366f1">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rashidsoftwarezone.github.io/">
+    <meta property="og:title" content="Rashid Software Zone - Free Windows Software Downloads">
+    <meta property="og:description" content="Discover and download the best free Windows software. Safe, fast, and verified downloads for Windows 11 & 10.">
+    <meta property="og:image" content="https://rashidsoftwarezone.github.io/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://rashidsoftwarezone.github.io/">
+    <meta property="twitter:title" content="Rashid Software Zone - Free Windows Software Downloads">
+    <meta property="twitter:description" content="Discover and download the best free Windows software. Safe, fast, and verified downloads for Windows 11 & 10.">
+    <meta property="twitter:image" content="https://rashidsoftwarezone.github.io/og-image.jpg">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://rashidsoftwarezone.github.io/">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Rashid Software Zone",
+        "url": "https://rashidsoftwarezone.github.io",
+        "description": "Free Windows Software Downloads - Browse and download the best software for Windows 11 and Windows 10.",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://rashidsoftwarezone.github.io/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Rashid Software Zone",
+        "url": "https://rashidsoftwarezone.github.io",
+        "logo": "https://rashidsoftwarezone.github.io/logo.png",
+        "sameAs": [
+            "https://github.com/rashidsoftwarezone"
+        ]
+    }
+    </script>
+</head>
+<body>
+    <!-- Notification Bar -->
+    <div class="notification-bar" id="notificationBar">
+        <span>🔔</span>
+        <span><strong>New Software Alert:</strong> Check out the latest additions to our collection!</span>
+        <button class="close-notif" onclick="document.getElementById('notificationBar').style.display='none'" aria-label="Close notification">✕</button>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">💻</div>
+                <span>Rashid Software Zone</span>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#software">Software</a></li>
+                <li><a href="#trending">Trending</a></li>
+                <li><a href="pages/about.html">About</a></li>
+                <li><a href="pages/contact.html">Contact</a></li>
+            </ul>
+
+            <div style="display: flex; align-items: center; gap: 8px;">
+                <button class="theme-toggle" aria-label="Toggle theme">🌙</button>
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()" aria-label="Toggle menu">☰</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html">🏠 Home</a>
+        <a href="#categories">📂 Categories</a>
+        <a href="#software">⭐ Software</a>
+        <a href="#trending">🔥 Trending</a>
+        <a href="pages/about.html">ℹ️ About</a>
+        <a href="pages/contact.html">📧 Contact</a>
+        <a href="pages/privacy.html">🔒 Privacy</a>
+        <a href="pages/terms.html">📋 Terms</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg-pattern"></div>
+        <div class="hero-grid"></div>
+
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="pulse"></span>
+                <span>Trusted by 2M+ Users Worldwide</span>
+            </div>
+
+            <h1>
+                Download the Best<br>
+                <span class="gradient-text">Windows Software</span>
+            </h1>
+
+            <p>Discover, download, and install top-rated free software for Windows 11 & 10. All downloads are verified, malware-free, and optimized for performance.</p>
+
+            <div class="hero-search">
+                <span class="search-icon">🔍</span>
+                <input type="text" placeholder="Search for software, tools, utilities..." aria-label="Search software" autocomplete="off">
+            </div>
+
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">15,000+</span>
+                    <span class="stat-label">Software Programs</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">50+</span>
+                    <span class="stat-label">Categories</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Malware Free</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search Results Section -->
+    <div class="search-results" id="searchResults"></div>
+
+    <!-- Trending Section -->
+    <section class="trending-section" id="trending">
+        <div class="section-header">
+            <h2>🔥 Trending Software</h2>
+            <p>Most downloaded and popular software this week</p>
+            <div class="section-line"></div>
+        </div>
+
+        <div class="marquee-wrapper" id="marqueeContainer"></div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories-section" id="categories">
+        <div class="section-header">
+            <h2>📂 Browse Categories</h2>
+            <p>Explore software organized by category for easy discovery</p>
+            <div class="section-line"></div>
+        </div>
+
+        <div class="categories-grid" id="categoriesGrid"></div>
+    </section>
+
+    <!-- Featured Software Section -->
+    <section class="software-section" id="software">
+        <div class="section-header">
+            <h2>⭐ Featured Software</h2>
+            <p>Hand-picked top-rated software for your Windows PC</p>
+            <div class="section-line"></div>
+        </div>
+
+        <div class="software-grid" id="softwareGrid"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>💻 Rashid Software Zone</h3>
+                <p>Your trusted source for free Windows software downloads. We verify every program to ensure safety and quality.</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Categories</h4>
+                <ul>
+                    <li><a href="pages/category.html?cat=browsers">🌐 Browsers</a></li>
+                    <li><a href="pages/category.html?cat=security">🛡️ Security</a></li>
+                    <li><a href="pages/category.html?cat=media-players">🎬 Media Players</a></li>
+                    <li><a href="pages/category.html?cat=utilities">⚡ Utilities</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="pages/about.html">ℹ️ About Us</a></li>
+                    <li><a href="pages/contact.html">📧 Contact</a></li>
+                    <li><a href="pages/privacy.html">🔒 Privacy Policy</a></li>
+                    <li><a href="pages/terms.html">📋 Terms of Service</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="pages/disclaimer.html">⚠️ Disclaimer</a></li>
+                    <li><a href="pages/dmca.html">© DMCA Policy</a></li>
+                    <li><a href="pages/sitemap.html">🗺️ Sitemap</a></li>
+                    <li><a href="pages/faq.html">❓ FAQ</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 Rashid Software Zone. All rights reserved.</p>
+            <p class="developer-credit">Developer: Rashid Ahmad SST (IT) Shangla</p>
+            <div class="footer-social">
+                <a href="#" aria-label="GitHub">🐙</a>
+                <a href="#" aria-label="Twitter">🐦</a>
+                <a href="#" aria-label="Discord">💬</a>
+                <a href="#" aria-label="Email">✉️</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Popup Notice -->
+    <div class="popup-notice" id="popupNotice">
+        <div class="popup-icon">📢</div>
+        <div class="popup-content">
+            <h4>Stay Updated!</h4>
+            <p>Get notified when new software is added to our collection. No spam, ever.</p>
+        </div>
+        <button class="popup-close" onclick="closePopup()" aria-label="Close popup">✕</button>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>

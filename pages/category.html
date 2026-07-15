@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category - Rashid Software Zone</title>
+    <meta name="description" content="Browse software by category at Rashid Software Zone. Find the best free Windows software organized by category.">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#6366f1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="../index.html" class="logo">
+                <div class="logo-icon">💻</div>
+                <span>Rashid Software Zone</span>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html#categories">Categories</a></li>
+                <li><a href="../index.html#software">Software</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div style="display: flex; align-items: center; gap: 8px;">
+                <button class="theme-toggle" aria-label="Toggle theme">🌙</button>
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()" aria-label="Toggle menu">☰</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="../index.html">🏠 Home</a>
+        <a href="../index.html#categories">📂 Categories</a>
+        <a href="../index.html#software">⭐ Software</a>
+        <a href="about.html">ℹ️ About</a>
+        <a href="contact.html">📧 Contact</a>
+        <a href="privacy.html">🔒 Privacy</a>
+        <a href="terms.html">📋 Terms</a>
+    </div>
+
+    <!-- Category Hero -->
+    <section class="category-hero">
+        <div class="breadcrumb" id="categoryBreadcrumb">
+            <a href="../index.html">🏠 Home</a>
+            <span>›</span>
+            <span>Category</span>
+        </div>
+        <div id="categoryIcon" style="font-size: 4rem; margin-bottom: 16px;">📂</div>
+        <h1 id="categoryTitle">Category</h1>
+        <p id="categoryDesc">Browse software in this category</p>
+    </section>
+
+    <!-- Software Grid -->
+    <section class="software-section" style="padding-top: 40px;">
+        <div class="software-grid" id="categorySoftwareGrid"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>💻 Rashid Software Zone</h3>
+                <p>Your trusted source for free Windows software downloads.</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="../index.html">🏠 Home</a></li>
+                    <li><a href="../index.html#categories">📂 Categories</a></li>
+                    <li><a href="about.html">ℹ️ About</a></li>
+                    <li><a href="contact.html">📧 Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="privacy.html">🔒 Privacy</a></li>
+                    <li><a href="terms.html">📋 Terms</a></li>
+                    <li><a href="disclaimer.html">⚠️ Disclaimer</a></li>
+                    <li><a href="dmca.html">© DMCA</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 Rashid Software Zone. All rights reserved.</p>
+            <p class="developer-credit">Developer: Rashid Ahmad SST (IT) Shangla</p>
+            <div class="footer-social">
+                <a href="#" aria-label="GitHub">🐙</a>
+                <a href="#" aria-label="Twitter">🐦</a>
+                <a href="#" aria-label="Discord">💬</a>
+                <a href="#" aria-label="Email">✉️</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
